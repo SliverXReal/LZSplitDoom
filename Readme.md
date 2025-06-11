@@ -3,6 +3,7 @@ LZSplitDoom v1.68
 2024 Sliver X 
 (sliverxreal@proton.me)
 
+![Image Screenshot](https://github.com/SliverXReal/Redmond97-SE/blob/8839943752a53c74cadd2ec97cb9fd7e805b391c/screenshots/1-ouroboros-lodpi.png)
 
 What It Is
 ----------
@@ -62,21 +63,21 @@ LZSplitDoom.ini to change).
 
 An example for Harmony.ini is shown here:
 
---------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~
 [LZSplitDoomCustomGame]
 
-# Used for Save & Autoload Directory names.
+Used for Save & Autoload Directory names.
 GAMENAME=harmony
 
-# IWAD file.
+IWAD file.
 IWAD=harm1.wad
 
-# Map List to populate "Level" control in GUI.
+Map List to populate "Level" control in GUI.
 MAPLIST=map01|map02|map03|map04|map05|map06|map07|map08|map09|map10|map11|map12|map13
 
-# Custom Command Line: Overrides manual entries set in GUI if present.
+Custom Command Line: Overrides manual entries set in GUI if present.
 CUSTOMCL=
---------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~
 
 Note that if "Custom Game Template" is set to "none" in the interface all parameters
 except for what makes the split screen functions work are supplied in the Command
@@ -186,27 +187,31 @@ Left Stick: Pan (Follow Mode Off)
 Right Stick Up/Down: Zoom In/Out
 Left Thumb: Follow Mode On/Off
 Right Thumb: Reset Zoom
+~~~~~~
 
 Hexen/Heretic
 ~~~~~~~~~~~~~
 X: Inventory Left
 A: Inventory Right
 Start: Use Item
+~~~~~~
 
 Hexen/Strife/Square's Adventure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Left Trigger: Jump
+~~~~~~
 
 Strife Only
 ~~~~~~~~~~~
 X: Objectives
 A: Inventory Right
+~~~~~~
 
 Square's Adventure Only
 ~~~~~~~~~~~~~~~~~~~~~~~
 A: Goonades
 X: Crouch
-
+~~~~~~
 
 Other
 -----
