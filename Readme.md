@@ -1,7 +1,6 @@
 LZSplitDoom v1.68
 =================
 2024 Sliver X 
-(sliverxreal@proton.me)
 
 ![Image Screenshot](https://github.com/SliverXReal/LZSplitDoom/blob/1cd556ba3c5db0ca44b0cc0190c06323a721b541/screenshot.png)
 
