@@ -199,19 +199,19 @@ Start: Use Item
 Hexen/Strife/Square's Adventure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Left Trigger: Jump
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Strife Only
-~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 X: Objectives
 A: Inventory Right
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Square's Adventure Only
 ~~~~~~~~~~~~~~~~~~~~~~~
 A: Goonades
 X: Crouch
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Other
 -----
