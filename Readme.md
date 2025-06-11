@@ -117,7 +117,7 @@ or into fourths.
 -mirror=[BOOL]
 
 [Bool] values: 0 | 1
-~~~~~~~~~~~~~~~~
+
 Invert splitscreen layout.
 
 
