@@ -136,7 +136,7 @@ Set Player Classes. Values are ignored by LZDoom if not a Hexen based game.
 These are simply the values for vanilla Hexen: If running a mod that adds
 new classes whatever values the mod uses can be substituted here.
 
-5) Reset Config
+Reset Config
 ~~~~~~~~~~~~~~~~
 -resetconfig
 ~~~~~~~~~~~~~~~~
@@ -144,7 +144,7 @@ Wipe Player/Launcher configs to be rebuilt at next run.
 
 
 
-6) Help Menu
+Help Menu
 ~~~~~~~~~~~~~~~~
 -help
 ~~~~~~~~~~~~~~~~
