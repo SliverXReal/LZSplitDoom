@@ -106,10 +106,9 @@ string you would typically define to run a game, though it doesn't particulary m
 
 
 Split Screen Type (Required)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~
 -split=[FLAG]
-
+~~~~~~~~~~~~~~~~
 [FLAG] values: vertical | horizontal | trih | triv | quad
 
 Split the screen in two (vertically or horizontally), into thirds (Horizontal split with P1 on top and P2/P3 on the bottom or Vertical split with P1 on left and P2/P3 on right)
