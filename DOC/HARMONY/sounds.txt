@@ -1,0 +1,112 @@
+
+		SOUND EFFECTS USED IN HARMONY v1.1
+
+
+The sound effects used in Harmony are stored in the 5sounds.wad and 
+come from various sources. Some of them were (heavily) modified. 
+Below is a list with sources belonging to each sound. 
+I did my best to check if they were all completely free, and to my 
+best knowledge they are.  
+
+
+
+EXPLANATION 
+----------- 
+"Freedoom":	Sounds taken from the Freedoom project (version 0.6.4).
+		http://www.nongnu.org/freedoom/
+
+"Animal":	Stock animal sounds from a deceased website.
+
+"Hacx":		Sounds taken from Hacx v1.1 with permission from Rich
+		"Nostromo" Johnston. http://www.drnostromo.com/hacx/Hacx.html 
+		
+"pdsounds":	Sounds taken from "Public Domain Sounds".
+		http://www.pdsounds.org/
+
+"TK":		Sounds recorded by Tom Keely specifically for Harmony.
+		(modified by T.V.)
+
+"FPS":		Sounds from the license free "FPS creator".
+
+"T.V.":		Sounds made by me.
+
+
+SOURCE LIST
+----------- 
+
+Sound name:	used as:		Source:
+
+'blank sounds'	fillers			Freedoom		
+DSPISTOL	neutrongun fire		Freedoom
+DSSHOTGUN	shotgun fire		Freedoom
+DSSGCOCK	"entering"		FPS 
+DSSAWFUL	breaking panel		FPS 
+DSRLAUNC	grenade launch		Hacx
+DSPSTART	lift			Freedoom
+DSPSTOP		doorstop		Freedoom
+DSDOROPN	opening door		Hacx
+DSDORCLS	closing door		Hacx
+DSSTNMOV	moving platform		Freedoom
+DSSWTCHN	switch			Hacx
+DSSWTCHX	switch			Hacx
+DSPLPAIN	Harmony pain		FPS
+DSDMPAIN	beastling pain		Animal
+DSPOPAIN	follower pain		TK
+DSSLOP		Fallen decapitated	Freedoom
+DSITEMUP	pickup bonus		Freedoom
+DSWPNUP		pickup weapon		Freedoom
+DSOOF		harmony lands		FPS
+DSTELEPT	silent teleport		T.V.
+DSPOSIT1	alert follower		Hacx
+DSPOSIT2	alert follower		Hacx
+DSPOSIT3	alert follower		Hacx
+DSBGSIT1	alert chaingunner	Hacx
+DSBGSIT2	alert chaingunner	Hacx
+DSSGTSIT	beastling spots		Animal
+DSBRSSIT	soldier spot		Freedoom
+DSSGTATK	beastling bite		Freedoom
+DSPLDETH	player hurt		FPS 
+DSPDIEHI	player dies		FPS 
+DSPODTH1	follower dies		TK
+DSPODTH2	follower dies		TK
+DSPODTH3	follower dies		TK
+DSSGTDTH	beastling dies		Animal
+DSBRSDTH	beastling dies		Animal
+DSPOSACT	Follower/ soldier walk	FPS
+DSDMACT		mutant deep breath	Animal
+DSNOWAY		hit wall		FPS 
+DSBAREXP	explosion grenade	Hacx
+DSTINK		tick			Hacx
+DSBDOPN		open door fast		Freedoom
+DSBDCLS		close door fast		Freedoom
+DSDBLOADv	Phage dies		Hacx	
+DSITMBK		spawn multipl.		Freedoom
+DSGETPOW	power pickup		Freedoom
+DSPLASMA	neutrongun fire		T.V.
+DSBFG		throw grenade		FPS 
+DSCYBSIT	centaur spot		Animal
+DSSPISIT	Amira spot		Animal
+DSSKLATK	Centaur (echidna) Hurt	TK
+DSCYBDTH	centaur dies		Freedoom
+DSSPIDTH	Echidna dies		Freedoom
+DSHOOF		predator growl		Animal
+DSDBOPN		Shotgun reload		FPS 
+DSDBCLS		Explosion mine/ barrel	Hacx
+DSVIPAIN	Chaingunner pain	Hacx
+DSMANSIT	Train stops		pdsounds
+DSBSPDTH	Phage dies		Hacx
+DSSKEDTH	Predator dies		Hacx
+DSBOSPN		activate self-destruct	FPS 
+DSBOSDTH	self destruct		Hacx
+DSSKEACT	expl. seekerprojectile	Hacx
+DSSKESIT	Predator spot/ growl	Freedoom
+DSSKEATK	Predator fire		Hacx
+DSRADIO		Radio			Freedoom
+
+..................................................
+
+
+T.V.
+
+December  2009
+www.rabotik.nl

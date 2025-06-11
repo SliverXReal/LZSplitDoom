@@ -1,0 +1,151 @@
+HACX Twitch 'N' Kill v1.2 Improved Edition (2021).
+By OV3RDR1VE
+ 
+This is my custom symbiosis of HACX v1.0 Commercial CD Release and HACX v1.2.
+The goal of this project was to bring the missing elements from HACX v1.0 Commercial CD Release to HACX v1.2 and therefore create a proper, complete version with available genuine assets, eliminate almost every single bug and enhance/tweak some aspects. I enjoyed doing playtesting through all the 22 levels of this game and I felt that it didn't get the attention it actually deserves. Based on my research of majority of the details I composed this Improved Edition which definitely gives a huge credit to the product, the potential of which was not fully revealed under difficult circumstances it encountered while being released back in 1997.
+The changelog is as follows: 
+ 
+//=========================================================================================//
+ 
+THE MAPS (CHANGES IN MAPINFO.txt).
+ 
+-All the maps from HACX v1.2 were replaced with the ones from HACX v1.0 Commercial CD Release and it was made sure that no bugs related to textures exist. TEXTURE1 & PNAMES lumps take responsibility for that.
+ 
+-Almost every map from HACX v1.0 Commercial CD Release has changes starting from a different enemy count, their types and ending with a more complete transition to cyberspace through the special terminal in every appropriate & corresponding map.
+ 
+-MAP21 "THE DARKNESS" from HACX v1.0 is now included and serves as the final game map. It uses D_HACX04.mid as a soundtrack like it was in HACX v1.0 Commercial CD Release.
+ 
+-MAP11 "NOTUS US!", MAP16 "PROTEAN CYBEX", MAP17 "RIVER OF BLOOD" and MAP19 "THE WAR ROOMS" had their skies changed in order to match the ones in HACX v1.0 Commercial CD Release. To be precise: Skies were swapped from Brown to Red & Red to Brown accordingly.
+ 
+-MAP01﻿ "GENEMP CORP.", MAP08 "GARDEN OF DELIGHTS", MAP15 "TWILIGHT OF ENK'S" and MAP31 "DESICCANT ROOM" had their "titlepatch" parameters disabled in MAPINFO.txt in order to replace their intermission titles with the correct ﻿names of the maps defined in MAPINFO.txt.
+ 
+-Some orthographical amendments were done in regards to item pickup lines, like "007Microtel" was changed to "007 Microtel!" as well as "You grap a Torpedo!" was changed to "You grab a Torpedo!" and so on.
+ 
+-Intermission screen of all 4 so called "episodes" now has a corresponding music (D_HACX19.mid) from HACX v1.0 Commercial CD Release.
+ 
+//=========================================================================================//
+ 
+THE ENEMIES (CHANGES IN DECORATE.txt).
+ 
+#1. Android.
+ 
+-Multiple "death" sounds are now utilized like  it was in HACX v1.0 Commercial CD Release.
+ 
+#2 Buzzer.
+ 
+-Multiple "sight" sounds are now utilized like it was in HACX v1.0 Commerсial CD Release.
+ 
+#3 D-Man.
+ 
+-Added a specific shade of a green blood color (indicated as RGB Palette Сode) in accordance with actor's pain sprite color. Initially there was a red blood color which is considered as incorrect.
+ 
+#4. ICE.
+ 
+-Multiple "sight", "attack" and "death" sounds are now utilized like it was in HACX v1.0 Commercial CD Release.
+-Added a corresponding "mass" parameter into DECORATE.txt to match the one from DEHACKED of HACX v1.0 Commercial CD Release.
+ 
+#5. Majong 7.
+ 
+-Multiple "sight", "pain" and "death" sounds are now utilized like it was in HACX v1.0 Commercial CD Release.
+ 
+#6. Mechamaniac.
+ 
+-Added corresponding "health", "painchance", "mass" and "speed" parameters into DECORATE.txt to match the ones from DEHACKED of HACX v1.0 Commercial CD Release.
+-Multiple "sight" and "death" sounds are now utilized like it was in HACX v1.0 Commercial CD Release.
+-An amendment related to "projectile death" sprites was made (see Photon 'zooka clause in "THE WEAPONS" section).
+ 
+#7. Monstruct.
+ 
+-Added and activated "pain" and "raise guns" sounds in accordance with HACX v1.0 Commercial CD Release.
+-Photon 'zooka "projectile death" sprites were copied and set for "HacxMonstructShot" actor. Additionally, those sprites obtained new names.
+ 
+#8. Phage.
+ 
+-Changed algorithm of "raise guns" sound in DECORATE.txt in order to avoid a clash with Monstruct actor.
+-Walking animation sequence was changed to less smoothed in order to match the one in HACX v1.0 Commercial CD Release.
+-Added a specific shade of a pink blood color (indicated as RGB Palette Code) in accordance with actor's pain sprite color. Initially there was a red blood color which is considered as incorrect.
+ 
+#9. Roaming Mine.
+ 
+-Nothing was changed.
+ 
+#10. Stealth.
+ 
+-Changed "alpha" parameter in accordance with Spectre actor from Doom.
+ 
+#11. Terminatrix.
+ 
+-The values of "health" and "mass" parameters were set in accordance with the ones in HACX v1.0 Commercial CD Release.
+-Increased moving speed in accordance with HACX v1.0 Commercial CD Release.
+-Added a corresponding "fastspeed" parameter into DECORATE.txt to match the one from DEHACKED of HACX v1.0 Commercial CD Release.
+-Phage's "projectile death" sprites were copied and set for "HacxTerminatrixBall" actor. Additionally, those sprites obtained new names and offsets alignments.
+ 
+#12. Thorn Thing.
+ 
+-Changed "projectile launch" sound to the one utilized in HACX v1.0 Commercial CD Release.
+-Added a specific shade of green blood color (indicated as RGB Palette Code) in accordance with actor's pain sprite color. Initially there was a red blood color which considered as incorrect.
+-Offsets alignments were made for "projectile death" sprites.
+ 
+#13. Thug.
+ 
+-Multiple "sight" and "death" sounds are now utilized like it was in HACX v1.0 Commercial CD Release.
+ 
+#14. Samurai Statue.
+ 
+-A fully correct algorithm has been implemented to make this actor  operating as intended. Now you have to shoot the Samurai Statue couple of times until it devastates and releases Monstruct. Statue and Monstruct are separate actors.
+ 
+#15. Mummy.
+ 
+-A fully correct algorithm has been implemented to make this actor operating as intended. Now you have to shoot the Mummy couple of times until it evaporates and releases Phage. Mummy and Phage are separate actors.
+ 
+#16. Skeleton.
+ 
+-A fully correct algorithm has been implemented to make this actor operating as intended. Now you have to shoot the Skeleton couple of times until it evaporates and releases Phage. Skeleton and Phage are separate actors.
+ 
+//=========================================================================================//
+ 
+THE WEAPONS (CHANGES IN DECORATE.txt).
+ 
+#1. Kick.
+ 
+-The rate of "kick" animation was decreased in order to match the one in HACX v1.0 Commercial CD Release.
+ 
+#2. Hoig Reznator.
+ 
+-The rate of "idle" and "fire" animations was decreased in order to match the one in HACX v1.0 Commercial CD Release.
+-Added "GunFlash" effect while firing in accordance with HACX v1.0 Commercial CD Release.
+ 
+#3. Pistol.
+ 
+-Added several missing bottom pixels to PISGB0 texture.
+ 
+#4. Uzi.
+ 
+-Added "GunFlash" effect while firing in accordance with HACX v1.0 Commercial CD Release.
+ 
+#5. Photon 'zooka.
+ 
+-Offsets alignments were made for "projectile death" sprites in order to match the projectile trajectory. This amendment also relates to "Mechamaniac" actor as he uses the same weapon and the same projectiles.
+ 
+#6. Stick.
+ 
+-Added a missing bottom line of pixels to PLSGB0 texture.
+ 
+#7. Nuker.
+ 
+-Speed of projectile was decreased in order to match the one in HACX v1.0 Commercial CD Release.
+-Offsets alignments were made for "projectile" sprites in order to match the offsets of "projectile death" ones.
+ 
+//=========================================================================================//
+ 
+SOUND.
+ 
+-New sound assignments have been made for Phage, Monstruct and Thorn Thing actors in SNDINFO.txt.
+ 
+//=========================================================================================//
+ 
+GRAPHICS.
+ 
+-Added a missing right side line of pixels to STCFN053 (Digit "5" in game symbols) texture.
+ 
+//=========================================================================================// 

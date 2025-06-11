@@ -1,0 +1,12 @@
+Discount Doom 3D
+2023 Sliver X
+panicus@gmail.com
+
+What it is:
+-----------
+At its core, the mod contains Freedoom: Phase 1's maps using Doom's assets as much as possible.
+Certain levels contain references to textures that don't exist in Doom, so they will still show
+as their Freedoom forms, but this is fairly minimal. All other assets will be pulled from a user
+provided doom.wad.
+
+In addition, Cheello's Voxel Doom mod along with pkweapports and better dynamic lights are included.
