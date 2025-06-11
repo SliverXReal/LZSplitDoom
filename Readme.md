@@ -53,9 +53,9 @@ Each game has a specific subfolder under DATA that acts as an autoload directory
 dropped into them will be loaded for their respective game.
 
 
-############
+
 CUSTOM GAMES
-############
+-----
 
 The launcher supports custom game definitions that are defined in small INI files,
 located by default under CUSTOM_GAMES (Default location: Set CUSTOMGAMEFOLDER= in 
@@ -86,9 +86,9 @@ Line edit box, such as:
 -iwad doom2.wad -file smoothdoom.pk3 -file morelights2.pk3
 
 
-##########
+
 SAVE GAMES
-##########
+-----
 
 Save game selection/loading is supported. Each game has an individual subfolder for saves
 under CFG (Default location: Set CFGFOLDER= in LZSplitDoom.ini to change).
@@ -98,9 +98,9 @@ currently configured. If you want to delete a save, a Delete button has now been
 to the main interface.
 
 
-##########
-[CLI Mode]
-##########
+
+CLI Mode
+-----
 
 Eight LZSplitDoom specific flags are defined. These should go before the standard command line
 string you would typically define to run a game, though it doesn't particulary matter as of v1.52 or above.
@@ -119,9 +119,9 @@ or into fourths.
 -mirror=[BOOL]
 
 [Bool] values: 0 | 1
-
+~~~~~~~~~~~~~~~~
 Invert splitscreen layout.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Hexen Class Type
 ~~~~~~~~~~~~~~~~
@@ -130,18 +130,18 @@ Hexen Class Type
 -p2class=[FLAG]
 -p3class=[FLAG]
 -p4class=[FLAG]
-
-[FLAG] values: fighter | cleric | mage
 ~~~~~~~~~~~~~~~~
+[FLAG] values: fighter | cleric | mage
+
 
 Set Player Classes. Values are ignored by LZDoom if not a Hexen based game.
 These are simply the values for vanilla Hexen: If running a mod that adds
 new classes whatever values the mod uses can be substituted here.
 
-[ Reset Config ]
-
+Reset Config
+~~~~~~~~~~~~~~~~
 -resetconfig
-
+~~~~~~~~~~~~~~~~
 Wipe Player/Launcher configs to be rebuilt at next run.
 
 
