@@ -23,9 +23,9 @@ GPU with OpenGL v3.3 support.
 How To Use
 ----------
 
-##########
-[GUI Mode]
-##########
+
+1) GUI Mode
+-----
 
 Invoke LZSplitDoom32.exe or LZSplitDoom64.exe with no command line options to load
 the GUI: Select your options, then click the Launch button.
@@ -53,8 +53,7 @@ Each game has a specific subfolder under DATA that acts as an autoload directory
 dropped into them will be loaded for their respective game.
 
 
-
-CUSTOM GAMES
+2) CUSTOM GAMES
 -----
 
 The launcher supports custom game definitions that are defined in small INI files,
@@ -87,7 +86,7 @@ Line edit box, such as:
 
 
 
-SAVE GAMES
+3) SAVE GAMES
 -----
 
 Save game selection/loading is supported. Each game has an individual subfolder for saves
@@ -99,7 +98,7 @@ to the main interface.
 
 
 
-CLI Mode
+4) CLI Mode
 -----
 
 Eight LZSplitDoom specific flags are defined. These should go before the standard command line
@@ -138,19 +137,18 @@ Set Player Classes. Values are ignored by LZDoom if not a Hexen based game.
 These are simply the values for vanilla Hexen: If running a mod that adds
 new classes whatever values the mod uses can be substituted here.
 
-Reset Config
+5) Reset Config
 ~~~~~~~~~~~~~~~~
 -resetconfig
 ~~~~~~~~~~~~~~~~
 Wipe Player/Launcher configs to be rebuilt at next run.
 
 
-~~~~~~~~~
-Help Menu
-~~~~~~~~~
 
+6) Help Menu
+~~~~~~~~~~~~~~~~
 -help
-
+~~~~~~~~~~~~~~~~
 Shows LZSplitDoom command line switches.
 
 Example Usage:
