@@ -105,7 +105,7 @@ to the main interface.
 Eight LZSplitDoom specific flags are defined. These should go before the standard command line
 string you would typically define to run a game, though it doesn't particulary matter as of v1.52 or above.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Split Screen Type (Required)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -121,8 +121,8 @@ or into fourths.
 [Bool] values: 0 | 1
 
 Invert splitscreen layout.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~
 Hexen Class Type
 ~~~~~~~~~~~~~~~~
 
@@ -132,6 +132,7 @@ Hexen Class Type
 -p4class=[FLAG]
 
 [FLAG] values: fighter | cleric | mage
+~~~~~~~~~~~~~~~~
 
 Set Player Classes. Values are ignored by LZDoom if not a Hexen based game.
 These are simply the values for vanilla Hexen: If running a mod that adds
@@ -194,24 +195,24 @@ Hexen/Heretic
 X: Inventory Left
 A: Inventory Right
 Start: Use Item
-~~~~~~
+~~~~~~~~~~~~~
 
 Hexen/Strife/Square's Adventure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 Left Trigger: Jump
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Strife Only
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 X: Objectives
 A: Inventory Right
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Square's Adventure Only
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 A: Goonades
 X: Crouch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Other
 -----
