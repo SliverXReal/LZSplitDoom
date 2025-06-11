@@ -3,7 +3,7 @@ LZSplitDoom v1.68
 2024 Sliver X 
 (sliverxreal@proton.me)
 
-![Image Screenshot](https://github.com/SliverXReal/Redmond97-SE/blob/8839943752a53c74cadd2ec97cb9fd7e805b391c/screenshots/1-ouroboros-lodpi.png)
+![Image Screenshot](https://github.com/SliverXReal/LZSplitDoom/blob/1cd556ba3c5db0ca44b0cc0190c06323a721b541/screenshot.png)
 
 What It Is
 ----------
